@@ -1,0 +1,35 @@
+.wrapper{
+    width: 300px;
+    height: 400px;
+    float: left;
+    padding: 20px;
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    background-image: url(laxmi5.png);
+    background-size: 100% 100%;
+    animation: slider 20s 4s infinite;
+    flex-wrap:wrap ;
+}
+@keyframes slider {
+    0%{
+        background-image: url(laxmi5.png);
+        transform: translateX(0);
+    }
+    25%{
+        background-image: url(laxmi.png);
+        transform: translateX(10%);
+    }
+    50%{
+        background-image: url(kata1-removebg-preview.png);
+        transform: translateX(5%);
+    }
+    75%{
+        background-image: url(laxmi3.png);
+        transform: translateX(15%);
+    }
+    100%{
+        background-image: url(71XmIYQt4aL._SX466_-removebg-preview.png);
+        transform: translateX(10%);
+    }
+}
